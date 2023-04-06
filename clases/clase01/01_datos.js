@@ -22,6 +22,5 @@ var masCadenas = `con tilde invertido`;
 console.log(masCadenas);
 var template = `concatenando: ${cadena} ${otraCadena}. Valor: ${hexa}.`;
 console.log(template);
-console.log("termino app");
 /*! CON ESTE FORMATO SE VERAN LOS COMENTARIOS EN .JS*/ 
 //# sourceMappingURL=01_datos.js.map
