@@ -5,9 +5,10 @@ mayúscula y el nombre solo con la primera letra en mayúsculas y el resto en mi
 El apellido y el nombre se mostrarán separados por una coma (,).
 Nota: Utilizar console.log()*/
 function MostrarNombreApellido(name, surname) {
-    console.log(name.toUpperCase() + "," + surname[0].toUpperCase());
+    console.log(surname.toUpperCase() + "," + name.toUpperCase());
 }
 let nombre = "mauro";
 let apellido = "racioppi";
 MostrarNombreApellido(nombre, apellido);
+//incompleto, no se como haccer mayuscula un solo caracter
 //# sourceMappingURL=ejercicio5.js.map

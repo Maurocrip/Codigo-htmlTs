@@ -13,3 +13,5 @@ let nombre :string ="mauro";
 let apellido :string ="racioppi";
 
 MostrarNombreApellido(nombre,apellido);
+
+//incompleto, no se como haccer mayuscula un solo caracter
