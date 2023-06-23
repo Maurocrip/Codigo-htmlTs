@@ -1,0 +1,117 @@
+* {
+  margin:0;
+  padding:0;
+}
+
+body {
+  margin: 0 auto;
+  color:#f0f0f0;
+  background:#3f51b5;
+  font-family:'Open Sans',sans-serif;
+}
+
+caption {
+  font-size: 1.6em;
+  font-weight: 400;
+  padding: 10px 0;
+}
+
+.CajaInicio {
+  width:750px;
+  margin:0 auto;
+  margin-top:8px;
+  margin-bottom:2%;
+  transition:opacity 1s;
+  -webkit-transition:opacity 1s;
+}
+
+.CajaInicio h1,h4{
+  background:rgb(14, 26, 112);
+  padding:20px 0;
+  font-size:140%;
+  font-weight:300;
+  text-align:center;
+  color:#fff;
+}
+
+form { 
+  background:#f0f0f0;
+  padding:6% 4%;
+}
+
+input[type="text"], input[type="file"]{
+  width:95%;
+  background:#fff;
+  margin-bottom:4%;
+  margin-left:5%;
+  margin-right:5%;
+  border:1px solid #ccc;
+  border-radius: 10px;
+  padding-right:4%;
+  font-family:'Open Sans',sans-serif;
+  font-size:150%;
+  color:#555;
+}
+
+.MiBotonUTN {
+  display:block;
+  text-transform: capitalize;
+  border:hidden;
+  width:100%;
+  background:#f50056;
+  margin:0 auto;
+  margin-top:1%;
+  padding:10px;
+  text-align:center;
+  text-decoration:none;
+  color:#fff;
+  cursor:pointer;
+  -moz-border-radius:7px;
+  -webkit-border-radius:7px;
+  border-radius:7px;
+  transition:background .3s;
+  -webkit-transition:background .3s;
+}
+
+.MiBotonUTN:hover{
+  background:#1BA045;
+}
+
+.CajaInicio table{
+  margin:0 auto;
+  margin-top:0px;
+  margin-bottom:2%;
+  background:#f5a0bb;
+  color: rgb(14, 26, 112);
+
+}
+.CajaInicio td{
+	margin:auto;
+	margin-left:0%;
+	text-align:right;
+}
+
+caption {
+  font-size: 1.6em;
+  font-weight: 400;
+  padding: 10px 0;
+}
+
+.CajaInicio table{
+	width:100%;	
+}
+.CajaInicio table tr td{
+text-align:center;
+vertical-align:middle;
+}
+
+.redondeado
+{
+  border-radius: 25px;
+  padding: 25px; 
+  overflow:auto;
+  margin-top:10px;
+  margin-left:20px;
+  width: 500px;
+  height: 480px;  
+}

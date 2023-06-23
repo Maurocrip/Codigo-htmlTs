@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Api Node server</title>
+    <script type="text/javascript" src="./script.js"></script>
+    <script type="text/javascript" src="./script_bd.js"></script>
+</head>
+<body>
+    <fieldset title="Traer Productos BD">
+        <legend>Traer Productos BD</legend>
+        <button id="btnTraer">Traer</button>
+    </fieldset>
+    <br>
+    <fieldset title="Agregar Productos BD">
+        <legend>Agregar Productos BD</legend>
+        <label for="txtCodigo">Código:</label>
+        <input type="text" name="" id="txtCodigo">
+        <br>
+        <label for="txtMarca">Marca:</label>
+        <input type="text" name="" id="txtMarca">
+        <br>
+        <label for="txtPrecio">Precio:</label>
+        <input type="text" name="" id="txtPrecio">
+        <br>
+        <label for="foto">Foto:</label>
+        <input type="file" name="foto" id="foto">
+        <br>
+        <input type="button" value="Agregar" id="btnAgregar">
+    </fieldset>
+    <br>
+    <fieldset title="Modificar Productos BD">
+        <legend>Modificar Productos BD</legend>
+        <label for="txtCodigo_m">Código:</label>
+        <input type="text" name="" id="txtCodigo_m" readonly>
+        <br>
+        <label for="txtMarca_m">Marca:</label>
+        <input type="text" name="" id="txtMarca_m">
+        <br>
+        <label for="txtPrecio_m">Precio:</label>
+        <input type="text" name="" id="txtPrecio_m">
+        <br>
+        <label for="foto">Foto:</label>
+        <input type="file" name="foto" id="foto_m">
+        <br>
+        <img src="" id="imgFoto_m" width="50px" height="50px">
+        <br>
+        <input type="button" value="Modificar" id="btnModificar">
+    </fieldset>
+    <br>
+    <fieldset title="Eliminar Productos BD">
+        <legend>Eliminar Productos BD</legend>
+        <input type="text" name="" id="txtCodigo_e" readonly>
+        <button id="btnEliminar">Eliminar</button>
+    </fieldset>
+    <br>
+    <div id="divListado"></div>
+</body>
+</html>

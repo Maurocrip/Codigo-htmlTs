@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>jQuery y JavaScript</title>
+
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link href="./img/utnLogo.png" rel="icon" type="image/png" />
+
+		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="css/animacion.css">		
+		
+		<!-- Estilos propios -->
+		<link rel="stylesheet" type="text/css" href="css/estilo.css">
+
+        <!-- AGREGO LA LIBRERIA DE JQUERY -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        
+        <!-- AGREGO FUNCIONES PROPIAS CON USO DE JQUERY -->
+        <script type="text/javascript" src="javascript/ejemplos_jQuery_efectos.js"></script>
+        
+    </head>
+    <body>
+        <div class="container">
+            <div class="page-header">
+                <h1>JQUERY - EFECTOS</h1>      
+            </div>
+            <div class="CajaInicio animated bounceInRight">
+                <h1>Ejemplos jQuery - JavaScript</h1>
+
+                <input type="button" id="btnOcultar" value="Ocultar"/>
+                <br>
+                <input type="button" id="btnMostrar" value="Mostrar"/>
+                <br>
+
+                <p id="idHideShow">
+                    Pulsar para ocultar / mostrar.
+                </p>
+
+                <br>
+                <input type="button" id="btnOcultarV" value="Ocultar"/>
+                <br>
+                <input type="button" id="btnMostrarV" value="Mostrar"/>
+                <br>
+
+                <p id="idHideShowVelocidad">
+                    Pulsar para ocultar / mostrar con distinta velocidad.
+                </p>
+
+                <br>
+                <input type="button" id="btnToggle" value="Ocultar / Mostrar"/>
+                <br>
+
+                <input type="button" id="btnAgregar" value="Agregar al final"/>
+                <br>
+                <input type="button" id="btnAgregarInicio" value="Agregar al inicio"/>
+                <br>
+
+                <input type="button" id="btnRemover" value="Remover DIV"/>
+                <br>
+                <input type="button" id="btnVaciar" value="Vaciar DIV"/>
+                <br>
+                <div id="div1" style="height:100px;width:300px;border:1px solid black;">
+
+                    Texto suelto...
+                    <p>Texto en elemento p.</p>
+                    
+                </div>
+                <div id="div2" style="height:100px;width:300px;border:1px solid black;">
+
+                    Texto suelto...
+                    <p>Texto en elemento p.</p>
+                    
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

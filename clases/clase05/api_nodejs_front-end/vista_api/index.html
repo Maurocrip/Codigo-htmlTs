@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vista API</title>
+
+    <link href="./img/utnLogo.png" rel="icon" type="image/png" />
+
+    <!-- bootstrap 4 CDN -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" type="text/css" href="./css/estilo.css">
+
+    <script type="text/javascript" src="./js/ajax.js"></script>
+	<script type="text/javascript" src="./js/app.js"></script>
+
+</head>
+<body>
+    <div class="container">
+		<div class="page-header">
+			<h3>PRODUCTOS</h3>      
+		</div>
+		<div class="CajaInicio animated bounceInRight" style="width:1100px">
+			<h1>ABM-LISTADO - con AJAX y API Node.js - </h1>
+			<table>
+				<tbody>
+					<tr>
+						<td width="50%">
+							<div id="divFrm"  >
+								<form id="frm" enctype="multipart/form-data" class="redondeado" >
+									<input type="text" name="codigo" id="codigo" placeholder="Ingrese c&oacute;digo" />
+									<input type="text" name="marca" id="marca" placeholder="Ingrese marca" />
+                                    <input type="text" name="precio" id="precio" placeholder="Ingrese precio" />
+									<input type="file" name="foto" id="foto" /> 
+									
+									<input type="button" id="btnForm" class="MiBotonUTN" onclick="Main.AgregarProducto()" value="Guardar"  />
+                                    <br>
+                                    <div id="div_foto" style="display:none">
+                                        <img id="img_foto" src="" width="200px" height="100px">
+                                    </div>
+                                </form>
+							</div>
+							
+						</td>
+						<td rowspan="2">
+							<div id="divListado" style="height:550px;overflow:auto;border-style:solid">
+							
+							</div>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+	</div>
+</body>
+</html>

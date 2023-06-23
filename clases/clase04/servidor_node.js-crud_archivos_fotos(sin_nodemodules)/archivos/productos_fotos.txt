@@ -1,0 +1,1 @@
+{"codigo":1,"marca":"marca_uno_con_foto","precio":100,"path":"fotos/1.webp"},
