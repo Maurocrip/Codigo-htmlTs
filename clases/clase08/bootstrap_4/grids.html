@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="img/utnLogo.png" rel="icon" type="image/png" />
+
+    <!-- bootstrap 4 -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    
+    <link rel="stylesheet" href="css/estilos.css">
+    <title>Bootstrap -Grillas-</title>
+</head>
+
+<body>
+
+    <h2 class="page-header">Sistemas de Grillas</h2>
+    
+    <h5 style="padding-top:1em;">Mantiene el tamaño constante</h5>
+    <div class="container-fluid" >
+        <div class="row">
+            <div class="col" style="background-color:darksalmon">A</div>
+            <div class="col" style="background-color:forestgreen">B</div> 
+            <div class="col" style="background-color:lightslategrey">C</div>                
+        </div> 
+    </div>   
+
+    <h5 style="padding-top:1em;">Cambia de tamaño según dispositivo</h5>
+    <div class="container-fluid" >
+        <div class="row">
+            <div class="col-6 col-sm-3 col-md-10" style="background-color:darksalmon">A</div>
+            <div class="col-3 col-sm-3 col-md-1" style="background-color:forestgreen">B</div> 
+            <div class="col-3 col-sm-6 col-md-1" style="background-color:lightslategrey">C</div>                
+        </div> 
+        <div class="row">
+            <div class="col-1 col-sm-3 col-md-10" style="background-color:darkslategray">D</div>
+            <div class="col-5 col-sm-3 col-md-1" style="background-color:darkcyan">E</div> 
+            <div class="col-6 col-sm-6 col-md-1" style="background-color:rebeccapurple">F</div>                
+        </div>                    
+    </div>   
+     
+    <h5 style="padding-top:1em;">Si el dispositivo es extra pequeño, se apila</h5>
+    <div class="container-fluid" >
+        <div class="row">
+            <div class="col-sm-6" style="background-color:darksalmon">A</div>
+            <div class="col-sm-6" style="background-color:lightslategrey">B</div>                
+        </div>  
+    </div>    
+
+    <h5 style="padding-top:1em;">Anidando columnas</h5>
+    <div class="container-fluid" >
+        <div class="row">
+            <div class="col-md-9 col-sm-9 col-9" style="background-color:darksalmon;height:60px">
+                A
+                <div class="row">
+                    <div class="col-md-6" style="background-color:forestgreen">B</div> 
+                    <div class="col-md-6" style="background-color:lightslategrey">C</div>
+                </div>                                
+            </div> 
+        </div>                    
+    </div>
+
+    <h5 style="padding-top:1em;">Reordenado columnas</h5>
+    <div class="container-fluid" >
+        <div class="row">
+            <div class="col-md-9 col-sm-3 col-6 order-md-1 order-sm-2 order-1" style="background-color:darksalmon">A</div>
+            <div class="col-md-3 col-sm-9 col-6 order-md-2 order-sm-1 order-2" style="background-color:lightslategrey">B</div>                
+        </div> 
+        <div class="row">
+            <div class="col-md-4 col-sm-8 order-md-1 order-sm-2" style="background-color:forestgreen">C</div>
+            <div class="col-md-8 col-sm-4 order-md-2 order-sm-1" style="background-color:coral">D</div>
+        </div> 
+    </div>  
+     
+</body>
+</html>

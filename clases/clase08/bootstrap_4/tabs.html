@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="img/utnLogo.png" rel="icon" type="image/png" />
+
+    <!-- bootstrap 4 -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="css/estilos.css">
+
+    <title>Bootstrap -Tabs-</title>
+</head>
+
+<body>
+
+    <h2 class="page-header">Tabs</h2>
+
+    <div class="container mt-3">
+
+        <br>
+        <ul class="nav nav-tabs">
+            <li class="nav-item">
+                <a class="nav-link active" data-toggle="tab" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" data-toggle="tab" href="#menu1">Menu 1</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" data-toggle="tab" href="#menu2">Menu 2</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" data-toggle="tab" href="#menu3">Menu 3</a>
+            </li>
+        </ul>
+
+        <div class="tab-content border" style="height:450px;">
+            <div id="home" class="container tab-pane active"><br>
+                <h3>HOME</h3>
+                <p>Info de la HOME.</p>
+            </div>
+            <div id="menu1" class="container tab-pane fade"><br>
+                <h3>Menu 1</h3>
+                <p>Info de MENU 1.</p>
+            </div>
+            <div id="menu2" class="container tab-pane fade"><br>
+                <h3>Menu 2</h3>
+                <p>Info de MENU 2.</p>
+            </div>
+            <div id="menu3" class="container tab-pane fade"><br>
+                <h3>Menu 3</h3>
+                <p>Info de MENU 3.</p>
+            </div>
+        </div>
+        
+    </div>
+    
+</body>
+</html>

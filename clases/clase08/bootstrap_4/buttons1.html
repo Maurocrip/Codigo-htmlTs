@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="img/utnLogo.png" rel="icon" type="image/png" />
+
+    <!-- bootstrap 4 -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    
+    <link rel="stylesheet" href="css/estilos.css">
+
+    <title>Bootstrap -Botones-</title>
+</head>
+
+<body>
+        
+    <div class="container" >
+
+        <h2 class="page-header">Botones</h2>
+        
+        <h4 style="padding-top:1em;">Activos y desabilitados</h4>
+
+        <button type="button" class="btn btn-success active">Activo</button>
+        <button type="button" class="btn btn-danger disabled" >Desabilitado</button>
+        <a href="#" class="btn btn-primary disabled">Link desabilitado</a>
+
+        <h4 style="padding-top:1em;">Botones con spinners</h4>
+
+        <button class="btn btn-primary">
+            <span class="spinner-border spinner-border-sm"></span>
+        </button>
+          
+        <button class="btn btn-primary">
+            <span class="spinner-border spinner-border-sm"></span>
+            Loading..
+        </button>
+        
+        <button class="btn btn-primary" disabled>
+            <span class="spinner-border spinner-border-sm"></span>
+            Loading..
+        </button>
+        
+        <button class="btn btn-primary">
+            <span class="spinner-grow spinner-grow-sm"></span>
+            Loading..
+        </button>
+
+        <h4 style="padding-top:1em;">Botones de grupo</h4>
+
+        <h5>Horizontal</h5>
+        <div class="btn-group btn-group-lg">
+            <button type="button" class="btn btn-primary">Inicio</button>
+            <button type="button" class="btn btn-primary">Medio</button>
+            <button type="button" class="btn btn-primary">Final</button>
+        </div>
+
+        <h5>Vertical</h5>
+        <div class="btn-group-vertical">
+            <button type="button" class="btn btn-primary">Inicio</button>
+            <button type="button" class="btn btn-primary">Medio</button>
+            <button type="button" class="btn btn-primary">Final</button>
+        </div> 
+                         
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="img/utnLogo.png" rel="icon" type="image/png" />
+
+    <!-- bootstrap 4 -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="css/estilos.css">
+
+    <title>Bootstrap -Carousel-</title>
+</head>
+
+<body>
+    <h2 class="page-header">Carousel con texto</h2>
+
+    <div class="container">
+
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+
+            <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+            </ol>
+
+            <div class="carousel-inner" role="listbox">
+                <div class="carousel-item active">
+                    <img src="img/bart.png" alt="Bartolomeo Simpson" class="mx-auto d-block" style="height:500px">
+                    <br><br>
+                    <div class="carousel-caption text-dark">
+                        <h3>Bart</h3>
+                        <p>Es el primer hijo de Homero.</p>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <img src="img/homero.png" alt="Homero Simpson" class="mx-auto d-block" style="height:500px">
+                    <br><br>
+                    <div class="carousel-caption text-dark">
+                        <h3>Homero</h3>
+                        <p>Junto a su vecino favorito.</p>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <img src="img/goku.png" alt="Goku" class="mx-auto d-block" style="height:500px">
+                    <br><br>
+                    <div class="carousel-caption text-dark">                        
+                        <h3>Goku</h3>
+                        <p>Su nombre saiyajin es Kakarotto</p>
+                    </div>
+                </div>
+
+            </div>
+            <br><br>
+            <a class="carousel-control-prev" href="#myCarousel" data-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                
+            </a>
+            <a class="carousel-control-next" href="#myCarousel" data-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                
+            </a>
+        </div>
+
+    </div>
+    
+</body>
+</html>
